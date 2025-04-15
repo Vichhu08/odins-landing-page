@@ -108,12 +108,70 @@ button{
     align-items: center;
     text-align: center;
 }
+.box p{
+    color: #1f2937;
+}
 .box div{
     height: 140px;
     width: 140px;
     border: 4px solid #3882f6;
     border-radius: 14px;
 }
+
+.content3{
+    display:flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+}
+.cont-quote{
+    width: 50%;
+    padding: 75px 0;
+    display:flex;
+    flex-direction: column;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight:lighter;
+}
+.author{
+    align-self: flex-end;
+    font-weight: 900;
+    
+}
+
+.content4{
+    display: flex;
+    justify-content: center;
+    padding: 75px 0;
+}
+.rectangle{
+    width: 60%;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    border-radius: 6px;
+    padding: 40px 75px;
+    
+}
+.action-topic{
+    font-weight: bold;
+}
+.rectangle button{
+    border: 2px solid #f9faf8 ;
+}
+.footer{
+    padding: 40px 0;
+    background-color: #1f2937;
+    text-align: center;
+    color:#e5e7eb ;
+}
+
+
+
+
 
 
 
